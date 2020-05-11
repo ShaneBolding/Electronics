@@ -1,14 +1,177 @@
+
 <!DOCTYPE html>
-
 <html>
+<head>
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body {
+  background-color: Lavender;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: DodgerBlue;
+  color: black;
+  padding: 20px;
+  text-align: center;
+font-size: 25px;
+} 
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+  height: auto; /* only for demonstration, should be removed */
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 1550px) {
+  
+  article{
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+</style>
+</head>
 <body>
+<header>
+	<p><h1 id="myHeader">Electronics</h1></p>
+</header>
 
-<h1>Electronics</h1>
+<section>
 
-<p>I'm Hosted with no love :( </p>
+<article>
 
-<body bgcolor = "AliceBlue">
+<p style = "font-size: 18px;">
+   My electronics study has helped my degree of understanding computer engineering. It helped
+	my understanding of the way computers worked at base level in computer architecture and logic.
+	It also allowed me to understand the way computers communicate in networks and even helped me understand
+	how to transmit the data from one computer to another. Electronics helped leave no stones unturned when
+	dealing with computers and electronics. 
+</p>
+
+<p style = "font-weight: bold; font-size: 18px;">  
+	Listed below are the models that will be showcased below.
+</p>
+
+<ul style = "font-size: 18px;">
+	<li>Instrumentation Amplifier</li>
+	<li>Basic Transistors</li>
+	<li>BJT Amplifier</li>
+	<li>3x2 Bit Multiplier</li>
+	<li>60 Second Clock</li>
+</ul>
+
+</article>
+<article>
+
+<! INSTRUMENTATION AMPLIFIER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+
+<p style = "font-weight: bold; font-size: 18px;">
+Instrumentation Amplifier
+</p>
+
+<p style = "font-size: 18px;"><img src="InstrumentationAmplifier.PNG" alt="OpAmps" style="float:left;width:25%;height:15%;padding: 10px;min-width:400px">
+Shown on the left is an instrumentation amplifier circuit. This is only one of the most basic uses
+of the powerful OpAmp. I have used OpAmps for a myriad of reasons while getting my degree and I believe these are one
+of the most versatile components.
+</p> 
+
+</article>
+<article>
+
+<! TRANSISTORS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+
+<p style = "font-weight: bold; font-size: 18px;">
+Basic Transistors
+</p>
+
+<p style = "font-size: 18px;"><img src="BasicTransistors.PNG" alt="transistor" style="float:left;width:25%;height:25%;padding: 10px;">
+Transistors are quite frankly the things that make the world go round. They are the components that undeniably allowed
+the information age to even exist. These are great switches to allow digitization and they are great components for
+most circuits.
+</p> 
+
+</article>
+<article>
+
+<! BJT AMPLIFIER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+
+<p style = "font-weight: bold; font-size: 18px;">
+BJT Amplifier
+</p>
+
+<p style = "font-size: 18px;"><img src="BJT_Amplifier.PNG" alt="BJT Amplifier" style="float:left;width:25%;height:25%;padding: 10px;min-width:300px">
+Transistors are so important that I decided to show them twice. This transistor to the left is being used as an
+amplifier. This is another reason transistors are important in the work of electronics and another reason I have
+used transistors multiple times throughout university. 
+</p> 
+
+</article>
+<article>
+
+<! BIT MULTIPLIER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+
+<p style = "font-weight: bold; font-size: 18px;">
+3x2 Bit Multiplier
+</p>
+
+<p style = "font-size: 18px;"><img src="3x2BitMultiplier.PNG" alt="Multiplier" style="float:left;width:25%;height:25%;padding: 10px;min-width:300px">
+Using digital logic, a person can make a lot of things in electronics including basic computations. Digital
+logic allows for many projects to have embedded electronics to perform actions instead of relying too heavily
+on microprocessors.
+</p> 
+
+</article>
+<article>
+
+<! CLOCK ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+
+<p style = "font-weight: bold; font-size: 18px;">
+60 Second Clock
+</p>
+
+<p style = "font-size: 18px;"><img src="60Clock.PNG" alt="clock" style="float:left;width:25%;height:25%;padding: 10px;min-width:300px">
+Again, I am showcasing the benefits of digital logic in electronics with this 60 second clock. This 60 second clock
+shows that even time dependent actions are not limited to microprocessors. This would seem to be common sense
+but given the ease of using microprocessors it enables people to be more inclined to go straight to microprocessors
+instead of trying to use digital logic.
+</p> 
+
+</article>
+  
+</section>
+
+<footer>
+
+<p style = "text-align:center; font-weight: bold;">Contact me through E-mail: Shane.B.Engineer@gmail.com	or through phone: 770-680-9557 </p>
+
+</footer>
+
+
 </body>
-
 </html>
+
